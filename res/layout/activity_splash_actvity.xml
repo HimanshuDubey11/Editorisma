@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/appicon3"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActvity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDITORISMA"
+        android:id="@+id/splashtext1"
+        android:fontFamily="serif"
+       android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:textColor="#446D72" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/splashtext2"
+        android:textSize="30dp"
+        android:layout_below="@id/splashtext1"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="casual"
+        android:textColor="#446D72"
+        android:textStyle="bold"
+        android:text="Create, Explore, Enjoy...."/>
+
+</RelativeLayout>

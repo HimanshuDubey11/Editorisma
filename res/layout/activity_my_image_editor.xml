@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/editorrelativelayout"
+    android:layout_height="match_parent"
+    android:background="#00574B"
+    tools:context=".activity.MyImageEditor">
+
+    <ja.burhanrashid52.photoeditor.PhotoEditorView
+        android:id="@+id/editorimageview"
+        android:saveEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearlayouteditor"
+        android:layout_width="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="end"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/picsaddicon"
+            android:src="@drawable/picsicon"
+            android:layout_margin="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/brushicon"
+            android:src="@drawable/drawicon"
+            android:layout_margin="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/editortexticon"
+            android:layout_margin="10dp"
+            android:src="@drawable/texticon"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/colorpickericon"
+            android:src="@drawable/colorpicker"
+            android:layout_margin="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/undoicon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/undoicon"
+        android:layout_margin="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/saveicon"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/saveicon"
+        android:layout_margin="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
