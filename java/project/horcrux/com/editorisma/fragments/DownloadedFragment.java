@@ -30,7 +30,7 @@ public class DownloadedFragment extends Fragment {
 
     RequestQueue requestQueue;
     ArrayList<String> list = new ArrayList<String>();
-    String url = "http://www.xplosion.in/xplosionapi/api/readImageTrending";
+    String url = "";//your signup API
     RecyclerView recyclerView;
     ProgressDialog dialog;
 
